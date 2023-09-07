@@ -1,0 +1,28 @@
+@import './nabar.css';
+@import './wrapper.css';
+@import './main-content.css';
+@import './hero.css';
+@import './footer.css';
+@import './wrapper.css';
+    
+
+:root{
+    --black: #202020;
+    --white: #FFFFFF;
+    --red: #dc2626;
+    --font: system-ui;
+    --semiblack: #20202084;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--red);
+    font-family: var(--font) ;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+
+}
